@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url(./assets/bg_img.png);
+}
+
+.active hr{
+  @apply block
+}
+
+/* To remove overflow scroll bar */
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+@media (max-width:740px){
+  .active p{
+      @apply text-black bg-white
+  }
+}
+
+
+
+
